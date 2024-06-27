@@ -1,18 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-// function App() {
-//   const today = new Date();
-//   return (
-//     <div className="App">
-//       <h1>Mohammad Waseem</h1>
-//       <h2>Integral University</h2>
-//       <h3>{today.toDateString()}</h3>
-//       <h3>{3 + 2}</h3>
-//     </div>
-//   );
-// }
-function App1() {
+function App() {
   const today = new Date();
   return (
     <div>
@@ -22,4 +11,4 @@ function App1() {
     </div>
   );
 }
-export default App1;
+export default App;
